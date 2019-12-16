@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    liquid (4.0.3)
+    namey (0.0.12)
+      sequel (~> 4.48)
+      sqlite3
+    sequel (4.49.0)
+    sqlite3 (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  liquid
+  namey
+
+BUNDLED WITH
+   2.0.1
