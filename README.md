@@ -35,7 +35,7 @@ underscore:
 > It's a good thing {{Jon_Ericson}} doesn't use his full name.
 
 If `{{Jon}}`has already been defined, the script will make the same
-substation for the first name and create a new substation for
+substitution for the first name and create a new substitution for
 `{{Ericson}}`. This may or may not be what you want. If you want to
 differentiate two people who happen to have the same name, you can add
 a number or other distinguishing feature:
@@ -44,7 +44,7 @@ a number or other distinguishing feature:
 
 ## Saving and loading substitutions
 
-Getting a random substation every time stops being fun after
+Getting a random substitution every time stops being fun after
 awhile. Sometimes you want stability. It also can be handy to have a
 list of substitutions if you need to decode the anonymized
 document. The script can `--save` the substitutions as a Ruby hash:
@@ -92,7 +92,7 @@ someone is named John, you can reasonably guess they are a man, but
 you can't rule out they are a woman.
 
 If sticking to one gender is important to you, I recommend using the
-``--cache`` option and manually editing the substations file to your
+``--cache`` option and manually editing the substitutions file to your
 liking.
 
 Namey tries to fix the capitalization of names. Since the census
