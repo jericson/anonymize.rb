@@ -2,11 +2,13 @@ GEM
   remote: https://rubygems.org/
   specs:
     liquid (4.0.3)
+    mini_portile2 (2.8.9)
     namey (0.0.12)
       sequel (~> 4.48)
       sqlite3
     sequel (4.49.0)
-    sqlite3 (1.4.1)
+    sqlite3 (2.9.5)
+      mini_portile2 (~> 2.8.0)
 
 PLATFORMS
   ruby
